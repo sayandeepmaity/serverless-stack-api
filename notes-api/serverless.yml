@@ -1,0 +1,24 @@
+service: notes-api
+
+package:
+  individually: true
+
+plugins:
+  - serverless-bundle
+
+ # Load .env as environment variables
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: prod
+  region: us-east-1
+
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
