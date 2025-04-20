@@ -67,4 +67,4 @@ SERVERLESS-INT/
 │   ├── package.json                   # React dependencies config
 │   ├── package-lock.json              # Lock file for frontend
 │   ├── serverless.yml                 # Serverless frontend config
-│   └── README.md                      # Frontend documentation
+│   └── README.md                      # Frontend documentation.
