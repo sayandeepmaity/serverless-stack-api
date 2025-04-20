@@ -13,6 +13,12 @@ This project is a *Note-Making Application* developed using the *Serverless Fram
 
 Here’s a breakdown of the folder structure:
 
+Absolutely! To preserve proper **indentation and formatting** in your GitHub `README.md`, wrap the folder structure within a **code block** using triple backticks (```) and specify the language as `bash` or leave it as plain text. Here's the ready-to-copy version:
+
+### 📁 Project Structure
+
+<pre>
+```bash
 SERVERLESS-INT/
 ├── serverless-stack-api/              # Backend (Serverless API)
 │   ├── node_modules/                  # Backend dependencies
@@ -23,7 +29,7 @@ SERVERLESS-INT/
 │   ├── handler.js                     # Lambda function handlers
 │   ├── LICENSE                        # License file
 │   ├── package.json                   # Node.js backend config
-│   ├── package-lock.json             # Lock file for backend dependencies
+│   ├── package-lock.json              # Lock file for backend dependencies
 │   └── serverless.yml                 # Serverless config for AWS resources
 
 ├── serverless-stack-client/          # Frontend (React app)
@@ -67,4 +73,6 @@ SERVERLESS-INT/
 │   ├── package.json                   # React dependencies config
 │   ├── package-lock.json              # Lock file for frontend
 │   ├── serverless.yml                 # Serverless frontend config
-│   └── README.md                      # Frontend documentation.
+│   └── README.md                      # Frontend documentation
+```
+</pre>
